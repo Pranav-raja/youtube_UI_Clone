@@ -1,0 +1,279 @@
+.header-container{
+    width: 100%;
+    top: 0px;
+    padding-top: 8px;
+    margin-right: 5px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    z-index: 100;
+}
+
+.upper-header{
+    display: flex;
+    background-color: white;
+}
+
+.left-header{
+    display: flex;
+    align-items: center;
+}
+
+.menu-button{
+    margin-left: 10px;
+    border-style: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu-button:hover{
+    background-color: rgb(225, 224, 224);
+}
+
+.burger{
+    margin-top: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    height: 20px;
+}
+
+.yt-button{
+    margin-left: 10px;
+    border-style: none;
+    background-color: white;
+    cursor: pointer;
+}
+.yticon{
+    height:20px;
+    margin-left: 5px;
+}
+
+.yticon-container{
+    position: relative;
+}
+
+.yt-country{
+    position: absolute;
+    font-size: 10px;
+    color: rgb(107, 100, 100);
+    margin-top: -32px;
+    margin-left: 115px;
+}
+
+.middle-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.searchbar{
+    flex:1;
+    max-width: 500px;
+    width: 0;
+    height:40px;
+    margin-left: 80px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: rgb(206, 204, 204);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+    box-shadow: inset 1px 2px 3px rgb(238, 237, 237);
+    padding-top: 3px;
+    padding-left: 18px;
+    font-size: 16px;
+}
+
+.searchbar::placeholder{
+    color: rgb(171, 169, 169);;
+}
+
+.search-button{
+    height:45px;
+    background-color: rgb(241, 241, 241);
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: rgb(206, 204, 204);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-left: -1px;
+    padding-top: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 3px;
+    opacity: 0.8;
+}
+
+.search-button:hover{
+    background-color: rgb(239, 237, 237);
+    cursor: pointer;
+    border-color: rgb(169, 167, 167);
+}
+
+.mike-button{
+    border-style: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: 15px;
+    margin-right: 80px;
+    background-color: rgb(241, 239, 239);
+    opacity: 0.8;
+}
+
+.mike-button:hover{
+    background-color: rgb(232, 229, 229);
+    cursor: pointer;
+}
+
+.right-header{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.create-button{
+    border-style: none;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-right: 6px;
+    background-color: white;
+}
+
+.create-button:hover{
+    background-color: rgb(235, 233, 233);
+    cursor: pointer;
+}
+
+.notification-button{
+    border-style: none;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-right: 8px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.notification-button:hover{
+    background-color: rgb(235, 233, 233);
+    cursor: pointer;
+}
+
+.notification-container{
+    position: relative;
+}
+
+.notification-count{
+    position: absolute;
+    background-color: rgb(216, 10, 10);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    font-size: 12px;
+
+    margin-top: -38px;
+    margin-left: 30px;
+}
+
+.account-button{
+    border-style: none;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-right: 8px;
+    margin-left: 10px;
+    margin-right: 20px;
+    opacity: 0.8;
+}
+
+.account-button:hover{
+    background-color: rgb(232, 229, 229);
+    cursor: pointer;
+}
+
+.lower-header{
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.arrow{
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border-style: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 1s border-color 0.8s;
+}
+
+.arrow:hover{
+    background-color: rgb(232, 229, 229);
+}
+
+.arrow:active{
+    background-color: rgb(201, 199, 199);
+    border-color: rgb(177, 174, 174);
+    border-style: solid;
+    border-width: 1.5px;
+}
+
+.category-selected{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border-style: none;
+    border-radius: 8px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    cursor: pointer;
+}
+
+.category{
+    color: rgb(63, 62, 62);
+    font-weight: 600;
+    font-size: 14px;
+    border-style: none;
+    border-radius: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    background-color: rgb(241, 241, 241);
+    margin-left: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.category:hover{
+    background-color: rgb(231, 231, 231);
+}
+

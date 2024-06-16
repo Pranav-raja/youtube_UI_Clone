@@ -1,0 +1,26 @@
+.side-nav-container{
+    position: fixed;
+    top: 60px;
+    bottom: 0px;
+    font-size: 11px; 
+    z-index: 200;
+}
+
+.side-nav-container p{
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.side-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.side-button:hover{
+    background-color: rgb(241, 241, 241);
+}
