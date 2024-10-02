@@ -48,7 +48,4 @@ This project is a clone of the YouTube user interface, created for educational p
   <li>Open a Pull Request</li>
 </ol>
 
-<h3>Contact</h3>
-Your Name - pranavraja777@gmail.com
-
 Project Link: https://github.com/Pranav-raja/youtube_UI_Clone
